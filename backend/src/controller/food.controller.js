@@ -7,8 +7,7 @@ async function createFood(req,res){
     console.log(req.body)   
     console.log(req.file)
 
-    const fileUploadResult = await storageService.uploadFile(req.file.buffer,uuid()
-)
+    const fileUploadResult = await storageService.uploadFile(req.file.buffer,uuid())
 
     res.send("Food item created")
 }
