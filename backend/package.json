@@ -1,5 +1,5 @@
 {
-  "name": "beckend",
+  "name": "backend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -19,5 +19,8 @@
     "mongoose": "^9.1.5",
     "multer": "^2.0.2",
     "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }
